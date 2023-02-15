@@ -1,0 +1,22 @@
+*header{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    padding: 70px 70px 24px 70px;
+    background-color: #F5CF06;
+}
+header{
+    background-color: pink;   
+}
+main{
+    background-color: hotpink;
+}
+footer{
+    background-color: rgb(255, 224, 229);
+}
