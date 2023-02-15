@@ -11,9 +11,17 @@ body{
     padding: 70px 70px 24px 70px;
     background-color: #F5CF06;
 }
-header{
-    background-color: pink;   
-}
+.logo{ 
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Righteous', cursive;
+    color: #8E4106;
+ }
+ .logo__text{
+     font-size: 32px;
+     font-weight: 100;
+ }
 main{
     background-color: hotpink;
 }
